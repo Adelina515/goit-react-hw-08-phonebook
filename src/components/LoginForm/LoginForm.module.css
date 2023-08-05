@@ -1,9 +1,20 @@
 .form {
-  width: 320px;
+  width: 330px;
+  padding: 10px;
+  background-color: aquamarine;
+  border: solid 3px;
+  border-color: rgb(20, 172, 146);
 }
 
 .label {
   display: flex;
   flex-direction: column;
   margin-bottom: 16px;
+}
+.button {
+  background-color: rgb(249, 151, 70);
+}
+.button:hover .button:focus {
+  background-color: rgb(117, 63, 20);
+  border-radius: 10px;
 }
