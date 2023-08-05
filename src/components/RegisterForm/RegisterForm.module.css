@@ -1,6 +1,7 @@
 .form {
   width: 330px;
   padding: 10px;
+  padding-bottom: 30px;
   background-color: aquamarine;
   border: solid 3px;
   border-color: rgb(20, 172, 146);
