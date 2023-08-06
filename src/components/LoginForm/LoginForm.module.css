@@ -12,9 +12,15 @@
   margin-bottom: 16px;
 }
 .button {
-  background-color: rgb(249, 151, 70);
+  border: solid 3px;
+  border-color: rgb(20, 172, 146);
+  background-color: rgb(250, 174, 82);
 }
-.button:hover .button:focus {
-  background-color: rgb(117, 63, 20);
-  border-radius: 10px;
+.button:hover {
+  border-color: rgb(9, 56, 48);
+  background-color: rgb(18, 124, 34);
+}
+.button:focus {
+  border-color: rgb(9, 56, 48);
+  background-color: rgb(18, 124, 34);
 }

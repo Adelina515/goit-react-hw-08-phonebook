@@ -15,12 +15,34 @@ export default function Contacts() {
   }, [dispatch]);
   return (
     <>
-      <div style={{ padding: 20 }}>
-        <h2>Phonebook</h2>
+      <div style={{ padding: 0 }}>
+        <h2
+          style={{
+            textAlign: 'center',
+            fontSize: 40,
+          }}
+        >
+          Phonebook
+        </h2>
         <ContactForm />
-        <h2>Contacts</h2>
+        <h2
+          style={{
+            textAlign: 'center',
+            fontSize: 40,
+          }}
+        >
+          Contacts
+        </h2>
         {contacts?.length === 0 ? (
-          <p>Haven't got contacts. Please, add contact </p>
+          <p
+            style={{
+              paddingBottom: 10,
+              textAlign: 'center',
+              fontSize: 24,
+            }}
+          >
+            Haven't got contacts. Please, add contact{' '}
+          </p>
         ) : (
           <Filter />
         )}

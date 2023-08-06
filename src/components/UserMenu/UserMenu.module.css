@@ -2,8 +2,22 @@
   display: flex;
   align-items: center;
   gap: 12px;
+  padding-right: 15px;
 }
 
 .mail {
   font-weight: 700;
+}
+.btnLogOut {
+  border: solid 3px;
+  border-color: rgb(20, 172, 146);
+  background-color: rgb(250, 174, 82);
+}
+.btnLogOut:hover {
+  border-color: rgb(9, 56, 48);
+  background-color: rgb(18, 124, 34);
+}
+.btnLogOut:focus {
+  border-color: rgb(9, 56, 48);
+  background-color: rgb(18, 124, 34);
 }
